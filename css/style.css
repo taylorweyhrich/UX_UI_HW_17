@@ -28,21 +28,23 @@ a.logo img {
     display: flex;
     justify-content: center;
     text-transform: lowercase;
-    kerning: 10px;
+    letter-spacing: 6px;
     
 }
 
 .h2 {
     font-family: 'Caladea', serif;
     font-size: 40px;
-    font-kerning: 15px;
+    letter-spacing: 4px;
     display: flex;
     justify-content: center;
+    text-transform: uppercase;
 }
 
 .h3 {
     font-family: 'Bowlby One', cursive;
     font-size: 90px;
+    letter-spacing: 6px;
 
 }
 
@@ -83,7 +85,7 @@ nav ul li a {
 }
 
 a.profile img {
-    width: 90%;
+    width: 110%;
     height: auto;
     display: block;
     border-radius: 30px;
@@ -98,6 +100,7 @@ div.about-me {
 p.about-me-text {
     font-family: 'Caladea', serif;
     font-size: 30px;
+    padding: 60px 60px;
 
 }
 
@@ -116,34 +119,36 @@ p.about-me-text {
   
 .work-grid-container {
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 17% 17% 17% 17% 17% 17%;
     grid-template-rows: 50% 50%;
+    height: 700px;
     
-    height: 500px;
+
 }
 
 .work-grid-container img {
-    height: 200px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+div.work-names {
+    display: flex;
+    justify-content: space-around;
+    color: white
 }
 footer {
     display: flex;
-    justify-content: space-between;
-    align-items: bottom;
-    padding: 24px;
+    justify-content: space-even;
     background-color: #798071;
     max-height: 100px;
     max-width: auto;
+    
 }
 
 footer ul {
     display: inline-block;
+    vertical-align: top;
     list-style: none;
-    padding: 1%;
-    margin: 0;
-}
-
-footer ul li {
-    margin: 0 24px;
 }
 
 footer ul li a {
