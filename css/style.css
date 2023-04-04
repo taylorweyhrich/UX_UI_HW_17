@@ -1,26 +1,108 @@
-
-
 /* Header */
 
 header {
     display:flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: top;
     padding: 24px;
+    background-color: #798071;
+    max-height: 80px;
+    max-width: auto;
 }
 
-.nav-primary ul {
+background-image {
+    max-width: 200px;
+    max-height: auto;
+}
+
+a.logo img {
+    max-width: 7%;
+    max-height: auto;
+    display:block;
+    padding: 10px;
+}
+
+.h1 {
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 110px;
+    display:flex;
+    justify-content: center;  
+}
+
+.h2 {
+    font-family: 'Caladea', serif;
+    font-size: 40px;
+    font-kerning: 15px;
     display: flex;
+    justify-content: center;
+}
+
+.h3 {
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 90px;
+
+}
+nav {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #798071;
+}
+
+nav ul {
     list-style: none;
-    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    justify-content: space-evenly;
+    padding: 1%;
     margin: 0;
 }
 
-.nav-primary ul li {
+nav ul li a {
+    font-family: 'Bowlby One SC', cursive;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    
+}
+
+a.profile img {
+    width: 23%;
+    height: auto;
+    display: block;
+    border-spacing: 0;
+}
+
+div.about-me {
+    display:flex;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: bottom;
+    padding: 24px;
+    background-color: #798071;
+    max-height: 100px;
+    max-width: auto;
+}
+
+footer ul {
+    display: inline-block;
+    list-style: none;
+    padding: 1%;
+    margin: 0;
+}
+
+footer ul li {
     margin: 0 24px;
 }
 
-.nav-primary ul li a {
+footer ul li a {
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 700;
